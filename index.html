@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!-- Defines the document type as HTML5 -->
+
+<html lang="en">
+<!-- Root element of the webpage, language set to English -->
+
+<head>
+    <!-- Head section contains meta information and links -->
+
+    <meta charset="UTF-8">
+    <!-- Supports all characters and symbols -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes the website responsive on all devices -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking external CSS file -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome CDN for icons -->
+
+    <title>Tour to Wild</title>
+    <!-- Title shown on browser tab -->
+</head>
+
+<body>
+    <!-- Body contains all visible content -->
+
+    <header>
+        <!-- Header section -->
+
+        <div class="navbar" id="navigation">
+            <!-- Navigation bar -->
+
+            <div class="logo"></div>
+            <!-- Website logo (added using CSS background image) -->
+
+            <a href="#navigation" class="points">Home</a>
+            <!-- Scrolls to top of the page -->
+
+            <a href="#Card" class="points">Destinations</a>
+            <!-- Scrolls to destinations section -->
+
+            <a href="#side-footer" class="points">Contact Us</a>
+            <!-- Scrolls to footer contact section -->
+
+            <a href="#side-footer" class="points">About Us</a>
+            <!-- Scrolls to about section -->
+
+            <div class="user">
+                <!-- User icon -->
+                <a href="#navigation">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <div class="Hero">
+        <!-- Hero section with background video -->
+
+        <video autoplay muted loop playsinline class="bg-video">
+            <!-- Background video -->
+            <source src="VideoProject.mp4" type="video/mp4">
+        </video>
+
+        <div class="text">
+            <!-- Text overlay on video -->
+
+            <h1 class="heading">Exploring</h1>
+            <h1 class="heading">Wildlife</h1>
+
+            <div class="subheading">
+                Offers an unforgettable immersion into nature, revealing diverse animals...
+            </div>
+        </div>
+    </div>
+
+    <!-- Spacer between sections -->
+    <div class="margin"></div>
+
+    <!-- DESTINATIONS SECTION -->
+    <div class="cards" id="Card">
+        <!-- Cards container -->
+
+        <!-- CARD 1 -->
+        <div class="box">
+            <div class="box1"></div>
+            <!-- National park image (via CSS) -->
+
+            <h3>Jim Corbett National</h3>
+            <h3>Park, Uttarakhand</h3>
+
+            <div class="button">
+                <!-- Button container -->
+
+                <button class="books" data-link="https://corbettgov.org/#people1-ak">
+                    Book Now
+                </button>
+                <!-- Opens booking page -->
+
+                <button class="read" data-link="https://corbettgov.org/about">
+                    Read more
+                </button>
+                <!-- Opens details page -->
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="box">
+            <div class="box2"></div>
+            <h3>Kaziranga National</h3>
+            <h3>Park, Assam</h3>
+            <div class="button">
+                <button class="books" data-link="https://kazirangabooking.com/gypsy-booking">Book Now</button>
+                <button class="read" data-link="https://kazirangabooking.com/about">Read more</button>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="box">
+            <div class="box3"></div>
+            <h3>Ranthambore National</h3>
+            <h3>Park, Rajasthan</h3>
+            <div class="button">
+                <button class="books" data-link="https://www.ranthamborenationalpark.com/query.html">Book Now</button>
+                <button class="read"
+                    data-link="https://www.ranthamborenationalpark.com/ranthambore-national-park-detail.html">
+                    Read more
+                </button>
+            </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="box">
+            <div class="box4"></div>
+            <h3>Bandhavgarh National</h3>
+            <h3>Park, Madhya Pradesh</h3>
+            <div class="button">
+                <button class="books" data-link="https://www.toftigers.org/park/bandhavgarh-tiger-reserve/">
+                    Book Now
+                </button>
+                <button class="read" data-link="https://www.toftigers.org/park/bandhavgarh-tiger-reserve/">
+                    Read more
+                </button>
+            </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="box">
+            <div class="box5"></div>
+            <h3>Kanha National Park</h3>
+            <h3>Madhya Pradesh</h3>
+            <div class="button">
+                <button class="books" data-link="https://kanhakislinationalpark.in/kanha-online-safari-booking.php">
+                    Book Now
+                </button>
+                <button class="read" data-link="https://kanhakislinationalpark.in/index.php">
+                    Read more
+                </button>
+            </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="box">
+            <div class="box6"></div>
+            <h3>Sundarbans National</h3>
+            <h3>Park, West Bengal</h3>
+            <div class="button">
+                <button class="books" data-link="http://sunderbannationalpark.in/sunderban-wildlife-tour-packages.html">
+                    Book Now
+                </button>
+                <button class="read"
+                    data-link="https://www.sunderbannationalpark.in/about-sunderban-national-park.html">
+                    Read more
+                </button>
+            </div>
+        </div>
+
+        <!-- CARD 7 -->
+        <div class="box">
+            <div class="box7"></div>
+            <h3>Periyar Wildlife</h3>
+            <h3>Sanctuary, Kerala</h3>
+            <div class="button">
+                <button class="books"
+                    data-link="https://www.periyartigerreserve.org/ProgramView">
+                    Book Now
+                </button>
+                <button class="read" data-link="https://www.periyartigerreserve.org/">
+                    Read more
+                </button>
+            </div>
+        </div>
+
+        <!-- CARD 8 -->
+        <div class="box">
+            <div class="box8"></div>
+            <h3>Gir National Park</h3>
+            <h3>Gujarat</h3>
+            <div class="button">
+                <button class="books" data-link="https://www.girnationalpark.in/book-gir-lion-safari.html">
+                    Book Now
+                </button>
+                <button class="read" data-link="https://www.girnationalpark.in/">
+                    Read more
+                </button>
+            </div>
+        </div>
+
+        <!-- CARD 9 -->
+        <div class="box">
+            <div class="box9"></div>
+            <h3>Nagarhole National</h3>
+            <h3>Park, Karnataka</h3>
+            <div class="button">
+                <button class="books" data-link="https://www.nagaraholetigerreserve.com/en/">
+                    Book Now
+                </button>
+                <button class="read" data-link="https://www.nagaraholetigerreserve.com/en/about-us/">
+                    Read more
+                </button>
+            </div>
+        </div>
+
+        <!-- CARD 10 -->
+        <div class="box">
+            <div class="box10"></div>
+            <h3>Tadoba Andhari Tiger</h3>
+            <h3>Reserve, Maharashtra</h3>
+            <div class="button">
+                <button class="books" data-link="https://www.tadobanationalpark.in/safari-timing-in-tadoba.html">
+                    Book Now
+                </button>
+                <button class="read" data-link="https://www.tadobanationalpark.in/">
+                    Read more
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ABOUT & CONTACT SECTION -->
+    <div class="about">
+        <!-- About and contact information -->
+
+        <div class="aboutus">
+            <h3>About Us</h3>
+            <ul>
+                <li>Tour to Wild is a wildlife travel information platform.</li>
+                <li>Provides official booking links and verified details.</li>
+                <li>Encourages eco-friendly tourism.</li>
+                <li>All booking links redirect to official government portals.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fa-regular fa-envelope"></i> Email: tourtowild2025@gmail.com</li>
+                <li><i class="fa-solid fa-phone"></i> Phone: 98382-23525</li>
+                <li><i class="fa-solid fa-tty"></i> Telephone: +14155550132</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="foot" id="side-footer">
+        <div>© 2025 Tour to Wild. All rights reserved.</div>
+        <div class="footimg"></div>
+    </footer>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
